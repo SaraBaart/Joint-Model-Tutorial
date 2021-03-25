@@ -4,7 +4,8 @@ This repository allows you to estimate all the models discussed in :
 
 The repository consists of R code for the analysis and a fictive data set.
  
- ## How to run the analyses from the tutorial
+ 
+ ### How to run the analyses
 Download the `data.RData` file and save it on you computer.
 
 Run the code `Analyses-JM-Tutorial.R` to perform the following analysis on this data set:
