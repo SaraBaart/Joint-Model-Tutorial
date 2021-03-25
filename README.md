@@ -1,9 +1,9 @@
 # Joint-Model-Tutorial
 
 
-Download the data.RData file and save it on you computer.
+Download the `data.RData` file and save it on you computer.
 
-Run the code "Analyses-JM-Tutorial.R" to run the following models on this data set:
+Run the code `Analyses-JM-Tutorial.R` to perform the following analysis on this data set:
 
 1) Time-dependent Cox model
 2) Basic joint model
