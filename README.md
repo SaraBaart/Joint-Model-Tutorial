@@ -1,6 +1,10 @@
 # Joint-Model-Tutorial
+This repository allows you to estimate all the models discussed in :
+> Joint Modeling Tutorial - Application of neo-aortic root dilatation after arterial switch operation. Baart et al.
 
-
+The repository consists of R code for the analysis and a fictive data set.
+ 
+ ## How to run the analyses from the tutorial
 Download the `data.RData` file and save it on you computer.
 
 Run the code `Analyses-JM-Tutorial.R` to perform the following analysis on this data set:
