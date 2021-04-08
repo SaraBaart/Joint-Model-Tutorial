@@ -196,3 +196,18 @@ for (i in 1:nrow(NDB)){
 for (i in c(1,3,5,7)) {
   plot(survPredsB[[i]], ylab = "")
 }
+
+
+# Obtain the function "plot.survfit.mvJMbayes2" from the R file plotsurvJMbayes2.R
+# With this adjusted plot function, more flexibility in the graphs is possible.
+source("plotsurvJMbayes2.R")
+
+# Plot the same graphs as before graphs at four different time points
+par(mfrow=c(2,2))
+for (i in c(1,3,5,8)) {
+  plot.survfit.mvJMbayes2(survPredsA[[i]], estimator = "mean", 
+                         conf.int = TRUE, fill.area = TRUE, col.area = "lightgrey", 
+                         col.abline = "black", col.points = "black", 
+                         add.last.time.axis.tick = FALSE, include.y = TRUE, 
+                         main = NULL, ylab2 = "", ylab = "")
+}
